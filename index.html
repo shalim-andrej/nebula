@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="ru" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NEBULA® — digital-агентство: сайты, приложения, брендинг</title>
+  <meta name="description" content="NEBULA® — digital-агентство в Москве. Сайты, веб-приложения и брендинг для компаний, которые хотят расти быстрее рынка. 120+ проектов с 2016 года, 98% клиентов возвращаются.">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%236C5CE7'/%3E%3Cstop offset='.5' stop-color='%2300C2FF'/%3E%3Cstop offset='1' stop-color='%23FF6B5E'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Cpath d='M18 46V18h7l14 19V18h7v28h-7L25 27v19z' fill='%23fff'/%3E%3C/svg%3E">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="NEBULA®">
+  <meta property="og:title" content="NEBULA® — digital-агентство: сайты, приложения, брендинг">
+  <meta property="og:description" content="Дизайн и код, которые продают. 120+ проектов, 9 лет, 98% клиентов возвращаются.">
+  <meta property="og:url" content="https://nebula.studio/">
+  <meta property="og:image" content="https://nebula.studio/assets/img/abs-hero.jpg">
+  <meta property="og:locale" content="ru_RU">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="NEBULA® — digital-агентство: сайты, приложения, брендинг">
+  <meta name="twitter:description" content="Дизайн и код, которые продают. 120+ проектов, 9 лет, 98% клиентов возвращаются.">
+  <meta name="twitter:image" content="https://nebula.studio/assets/img/abs-hero.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "NEBULA®",
+    "description": "Digital-агентство: сайты, веб-приложения и брендинг. 120+ проектов с 2016 года.",
+    "url": "https://nebula.studio/",
+    "email": "hello@nebula.studio",
+    "telephone": "+7 495 771-20-30",
+    "image": "https://nebula.studio/assets/img/abs-hero.jpg",
+    "priceRange": "от 60 000 ₽",
+    "foundingDate": "2016",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "ул. Лесная, 43, Дизайн-завод",
+      "addressLocality": "Москва",
+      "addressCountry": "RU"
+    },
+    "areaServed": "RU",
+    "knowsAbout": ["веб-дизайн", "разработка сайтов", "брендинг", "UX/UI", "веб-приложения"]
+  }
+  </script>
+</head>
+<body class="is-loading">
+
+  <!-- ============ PRELOADER ============ -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader__brand">
+      <span class="preloader__word">NEBULA<span class="preloader__reg">®
+        <span class="preloader__orbit"><i class="preloader__dot"></i></span>
+      </span></span>
+    </div>
+    <div class="preloader__counter"><span id="preloader-count">0</span>%</div>
+  </div>
+
+  <!-- ============ CUSTOM CURSOR ============ -->
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <!-- ============ SCROLL PROGRESS ============ -->
+  <div class="progress" aria-hidden="true"><span class="progress__fill" id="progress-fill"></span></div>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#hero" class="logo" aria-label="NEBULA — на главную">NEBULA<span class="logo__r">®</span></a>
+      <nav class="nav" aria-label="Основная навигация">
+        <a class="nav__link" href="#services">Услуги</a>
+        <a class="nav__link" href="#cases">Кейсы</a>
+        <a class="nav__link" href="#process">Процесс</a>
+        <a class="nav__link" href="#studio">Студия</a>
+        <a class="nav__link" href="#contacts">Контакты</a>
+      </nav>
+      <a href="#contacts" class="btn btn--grad btn--sm header__cta" data-magnetic>Обсудить проект</a>
+      <button class="burger" id="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ MOBILE MENU ============ -->
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <nav class="mobile-menu__nav" aria-label="Мобильная навигация">
+      <a class="mobile-menu__link" href="#services"><em>01</em>Услуги</a>
+      <a class="mobile-menu__link" href="#cases"><em>02</em>Кейсы</a>
+      <a class="mobile-menu__link" href="#process"><em>03</em>Процесс</a>
+      <a class="mobile-menu__link" href="#studio"><em>04</em>Студия</a>
+      <a class="mobile-menu__link" href="#contacts"><em>05</em>Контакты</a>
+    </nav>
+    <div class="mobile-menu__foot">
+      <a href="mailto:hello@nebula.studio" class="mobile-menu__contact">hello@nebula.studio</a>
+      <a href="tel:+74957712030" class="mobile-menu__contact">+7 (495) 771-20-30</a>
+      <a href="#contacts" class="btn btn--grad mobile-menu__cta">Обсудить проект</a>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+      <div class="hero__blobs" aria-hidden="true">
+        <div class="hero__blob-pos hero__blob-pos--1" data-speed="0.1"><span class="blob blob--violet"></span></div>
+        <div class="hero__blob-pos hero__blob-pos--2" data-speed="0.16"><span class="blob blob--coral"></span></div>
+        <div class="hero__blob-pos hero__blob-pos--3" data-speed="0.07"><span class="blob blob--cyan"></span></div>
+      </div>
+
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="kicker" data-reveal><span class="kicker__dot"></span>DIGITAL-АГЕНТСТВО · МОСКВА · С 2016</p>
+          <h1 class="hero__title" data-reveal data-reveal-delay="100">Дизайн и&nbsp;код, которые <span class="grad-text">продают</span></h1>
+          <p class="hero__sub" data-reveal data-reveal-delay="200">Сайты, веб-приложения и брендинг для компаний, которые хотят расти быстрее рынка. 120+ проектов, 9&nbsp;лет, 98% клиентов возвращаются.</p>
+          <div class="hero__actions" data-reveal data-reveal-delay="300">
+            <a href="#contacts" class="btn btn--grad" data-magnetic>Обсудить проект</a>
+            <a href="#cases" class="btn btn--ghost" data-magnetic>Смотреть кейсы</a>
+          </div>
+        </div>
+
+        <div class="hero__visual" data-reveal data-reveal-delay="200">
+          <div class="hero__mock" data-speed="0.08">
+            <div class="hero__float">
+              <figure class="hero__card" data-tilt="9">
+                <img src="assets/img/abs-shapes.jpg" alt="Абстрактные 3D-фигуры в фирменных градиентах NEBULA" width="900" height="900" decoding="async">
+              </figure>
+            </div>
+          </div>
+          <div class="hero__chip hero__chip--1" data-speed="0.18" aria-hidden="true">+37% к конверсии</div>
+          <div class="hero__chip hero__chip--2" data-speed="0.14" aria-hidden="true">4,8 ★ в сторах</div>
+        </div>
+      </div>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__track">
+          <div class="marquee__set">
+            <span class="mchip mchip--1">UX</span><span class="marquee__dash">—</span>
+            <span class="mchip mchip--2">BRANDING</span><span class="marquee__dash">—</span>
+            <span class="mchip mchip--3">DEVELOPMENT</span><span class="marquee__dash">—</span>
+            <span class="mchip mchip--4">E-COMMERCE</span><span class="marquee__dash">—</span>
+            <span class="mchip mchip--5">MOTION</span><span class="marquee__dash">—</span>
+          </div>
+          <div class="marquee__set">
+            <span class="mchip mchip--1">UX</span><span class="marquee__dash">—</span>
+            <span class="mchip mchip--2">BRANDING</span><span class="marquee__dash">—</span>
+            <span class="mchip mchip--3">DEVELOPMENT</span><span class="marquee__dash">—</span>
+            <span class="mchip mchip--4">E-COMMERCE</span><span class="marquee__dash">—</span>
+            <span class="mchip mchip--5">MOTION</span><span class="marquee__dash">—</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SHOWREEL ============ -->
+    <section class="showreel section" id="showreel">
+      <div class="container">
+        <div class="section-head section-head--center" data-reveal>
+          <p class="kicker"><span class="kicker__dot"></span>SHOWREEL</p>
+          <h2 class="section-title">Работа в движении</h2>
+        </div>
+        <button class="showreel__frame" id="showreel-frame" type="button" data-reveal data-reveal-delay="150" aria-label="Открыть showreel 2026 на весь экран">
+          <video class="showreel__video" src="assets/video/hero.mp4" poster="assets/img/abs-2.jpg" muted loop playsinline preload="metadata" tabindex="-1" aria-hidden="true"></video>
+          <span class="showreel__badge">
+            <span class="showreel__play">
+              <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+            </span>
+            SHOWREEL 2026
+          </span>
+          <span class="showreel__hint">Нажмите, чтобы посмотреть · 1 мин 24 сек</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="services section section--alt" id="services">
+      <div class="services__blob" aria-hidden="true" data-speed="0.12"><span class="blob blob--pink blob--sm"></span></div>
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="kicker"><span class="kicker__dot"></span>УСЛУГИ</p>
+          <h2 class="section-title">Чем мы можем быть полезны</h2>
+          <p class="section-sub">Полный цикл: от стратегии и дизайна до кода, аналитики и развития после запуска.</p>
+        </div>
+
+        <div class="services__grid">
+          <article class="svc" data-reveal>
+            <span class="svc__num">01</span>
+            <span class="svc__icon svc__icon--1">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="2.5" y="4" width="19" height="13" rx="2.5"/><path d="M8.5 21h7M12 17.5V21"/></svg>
+            </span>
+            <h3 class="svc__title">Сайт под ключ</h3>
+            <p class="svc__text">Лендинги и корпоративные сайты: стратегия, дизайн, копирайтинг, разработка и запуск за 4–8 недель.</p>
+            <p class="svc__price">от 180 000 ₽</p>
+          </article>
+
+          <article class="svc" data-reveal data-reveal-delay="100">
+            <span class="svc__num">02</span>
+            <span class="svc__icon svc__icon--2">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3l9 4.7-9 4.7-9-4.7L12 3z"/><path d="m4 12.6 8 4.2 8-4.2"/><path d="m4 16.9 8 4.2 8-4.2"/></svg>
+            </span>
+            <h3 class="svc__title">Веб-приложение</h3>
+            <p class="svc__text">SaaS, личные кабинеты и мобильные web-приложения с продуманным UX и чистой архитектурой.</p>
+            <p class="svc__price">от 350 000 ₽</p>
+          </article>
+
+          <article class="svc" data-reveal>
+            <span class="svc__num">03</span>
+            <span class="svc__icon svc__icon--3">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+            </span>
+            <h3 class="svc__title">Брендинг и айдентика</h3>
+            <p class="svc__text">Название, логотип, фирменный стиль и гайдлайны, которые выделяют компанию среди конкурентов.</p>
+            <p class="svc__price">от 150 000 ₽</p>
+          </article>
+
+          <article class="svc" data-reveal data-reveal-delay="100">
+            <span class="svc__num">04</span>
+            <span class="svc__icon svc__icon--4">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.8-3.8"/></svg>
+            </span>
+            <h3 class="svc__title">UX-аудит</h3>
+            <p class="svc__text">Находим точки потери конверсии и выдаём список улучшений с приоритетами и оценкой эффекта.</p>
+            <p class="svc__price">от 90 000 ₽</p>
+          </article>
+
+          <article class="svc" data-reveal data-reveal-delay="200">
+            <span class="svc__num">05</span>
+            <span class="svc__icon svc__icon--5">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
+            </span>
+            <h3 class="svc__title">Поддержка и развитие</h3>
+            <p class="svc__text">A/B-тесты, новые разделы, интеграции и мониторинг — продукт растёт каждый месяц.</p>
+            <p class="svc__price">от 60 000 ₽/мес</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CASES ============ -->
+    <section class="cases section" id="cases">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="kicker"><span class="kicker__dot"></span>КЕЙСЫ</p>
+          <h2 class="section-title">Результаты, а&nbsp;не&nbsp;картинки</h2>
+          <p class="section-sub">Каждый проект измеряем метриками бизнеса: конверсия, удержание, скорость.</p>
+        </div>
+
+        <div class="cases__list">
+          <article class="case">
+            <div class="case__media" data-tilt="5" data-reveal>
+              <img src="assets/img/case-fintech.jpg" alt="Финтех-приложение VELES — 3D-макет смартфона с экранами инвестиционного сервиса" loading="lazy" decoding="async">
+              <span class="case__year">2025</span>
+            </div>
+            <div class="case__body" data-reveal data-reveal-delay="120">
+              <p class="case__tags"><span>Mobile · UX/UI</span><span>Брендинг</span></p>
+              <h3 class="case__title">VELES — финтех-приложение</h3>
+              <p class="case__text">Переосмыслили инвестиционный сервис: упростили онбординг до трёх шагов и перевели сложные графики в понятный язык.</p>
+              <div class="case__metrics">
+                <div class="metric">
+                  <span class="metric__value grad-text" data-count="37" data-prefix="+" data-suffix="%">+37%</span>
+                  <span class="metric__label">конверсия в регистрацию</span>
+                </div>
+                <div class="metric">
+                  <span class="metric__value grad-text" data-count="4.8" data-decimals="1">4,8</span>
+                  <span class="metric__label">рейтинг в сторах</span>
+                </div>
+                <div class="metric">
+                  <span class="metric__value grad-text" data-count="120000">120 000</span>
+                  <span class="metric__label">пользователей</span>
+                </div>
+              </div>
+              <a class="link-arrow" href="#contacts">Смотреть кейс
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="case case--reverse">
+            <div class="case__media" data-tilt="5" data-reveal>
+              <img src="assets/img/case-bank.jpg" alt="Интернет-банк NOVA — макеты экранов банковского веб-приложения" loading="lazy" decoding="async">
+              <span class="case__year">2024</span>
+            </div>
+            <div class="case__body" data-reveal data-reveal-delay="120">
+              <p class="case__tags"><span>Веб-платформа</span><span>Дизайн-система</span></p>
+              <h3 class="case__title">NOVA — интернет-банк</h3>
+              <p class="case__text">Провели редизайн 40 экранов и построили дизайн-систему: банк стал выглядеть как продукт нового поколения.</p>
+              <div class="case__metrics">
+                <div class="metric">
+                  <span class="metric__value grad-text" data-count="40">40</span>
+                  <span class="metric__label">экранов редизайна</span>
+                </div>
+                <div class="metric">
+                  <span class="metric__value grad-text" data-count="21" data-prefix="+" data-suffix=" п.">+21 п.</span>
+                  <span class="metric__label">рост NPS</span>
+                </div>
+                <div class="metric">
+                  <span class="metric__value grad-text" data-count="38" data-prefix="−" data-suffix="%">−38%</span>
+                  <span class="metric__label">обращений в поддержку</span>
+                </div>
+              </div>
+              <a class="link-arrow" href="#contacts">Смотреть кейс
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="case">
+            <div class="case__media" data-tilt="5" data-reveal>
+              <img src="assets/img/case-flights.jpg" alt="Сервис бронирования AVIA.X — широкие экраны приложения поиска авиабилетов" loading="lazy" decoding="async">
+              <span class="case__year">2025</span>
+            </div>
+            <div class="case__body" data-reveal data-reveal-delay="120">
+              <p class="case__tags"><span>Продукт</span><span>Разработка</span></p>
+              <h3 class="case__title">AVIA.X — сервис бронирования</h3>
+              <p class="case__text">Собрали быстрый поиск билетов и покупку в три клика — от идеи до релиза за 16 недель.</p>
+              <div class="case__metrics">
+                <div class="metric">
+                  <span class="metric__value grad-text" data-count="1.2" data-decimals="1" data-suffix=" млн">1,2 млн</span>
+                  <span class="metric__label">пользователей</span>
+                </div>
+                <div class="metric">
+                  <span class="metric__value grad-text" data-count="43" data-prefix="−" data-suffix="%">−43%</span>
+                  <span class="metric__label">время покупки</span>
+                </div>
+                <div class="metric">
+                  <span class="metric__value grad-text" data-count="31" data-prefix="+" data-suffix="%">+31%</span>
+                  <span class="metric__label">повторных бронирований</span>
+                </div>
+              </div>
+              <a class="link-arrow" href="#contacts">Смотреть кейс
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="process section section--alt" id="process">
+      <div class="container process__grid">
+        <div class="process__intro">
+          <div class="section-head" data-reveal>
+            <p class="kicker"><span class="kicker__dot"></span>ПРОЦЕСС</p>
+            <h2 class="section-title">Понятно<br>на каждом шаге</h2>
+            <p class="section-sub">Фиксируем объём и сроки до старта, показываем прогресс каждую неделю и не теряем контекст в переписках.</p>
+          </div>
+        </div>
+
+        <div class="timeline" id="timeline">
+          <span class="timeline__line" aria-hidden="true"><span class="timeline__fill" id="timeline-fill"></span></span>
+          <ol class="timeline__list">
+            <li class="timeline__item">
+              <span class="timeline__dot" aria-hidden="true"></span>
+              <div class="timeline__card">
+                <p class="timeline__meta"><span class="timeline__step">Шаг 1</span><span class="chip">1 нед</span></p>
+                <h3>Бриф и аналитика</h3>
+                <p>Погружаемся в бизнес, изучаем конкурентов и аудиторию, формулируем метрики успеха и фиксируем объём работ.</p>
+              </div>
+            </li>
+            <li class="timeline__item">
+              <span class="timeline__dot" aria-hidden="true"></span>
+              <div class="timeline__card">
+                <p class="timeline__meta"><span class="timeline__step">Шаг 2</span><span class="chip">2 нед</span></p>
+                <h3>Прототип</h3>
+                <p>Собираем структуру и кликабельный прототип, тестируем сценарии на реальных пользователях до дизайна.</p>
+              </div>
+            </li>
+            <li class="timeline__item">
+              <span class="timeline__dot" aria-hidden="true"></span>
+              <div class="timeline__card">
+                <p class="timeline__meta"><span class="timeline__step">Шаг 3</span><span class="chip">3 нед</span></p>
+                <h3>Дизайн-концепция</h3>
+                <p>Создаём визуальный язык: типографика, цвет, motion. Утверждаем концепцию на ключевых экранах.</p>
+              </div>
+            </li>
+            <li class="timeline__item">
+              <span class="timeline__dot" aria-hidden="true"></span>
+              <div class="timeline__card">
+                <p class="timeline__meta"><span class="timeline__step">Шаг 4</span><span class="chip">4–6 нед</span></p>
+                <h3>Разработка</h3>
+                <p>Верстаем и программируем, подключаем аналитику и интеграции, проводим кросс-браузерное тестирование.</p>
+              </div>
+            </li>
+            <li class="timeline__item">
+              <span class="timeline__dot" aria-hidden="true"></span>
+              <div class="timeline__card">
+                <p class="timeline__meta"><span class="timeline__step">Шаг 5</span><span class="chip">постоянно</span></p>
+                <h3>Запуск и рост</h3>
+                <p>Публикуем проект, следим за метриками и развиваем продукт: A/B-тесты, новые фичи и поддержка.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STUDIO ============ -->
+    <section class="studio section" id="studio">
+      <div class="container">
+        <div class="studio__top">
+          <div class="studio__text" data-reveal>
+            <p class="kicker"><span class="kicker__dot"></span>СТУДИЯ</p>
+            <h2 class="section-title">Нас 14 — и мы любим сложные продукты</h2>
+            <p>Дизайнеры, разработчики, аналитики и проджект-менеджеры. Работаем из офиса на Дизайн-заводе в центре Москвы: рядом выставки, шоурумы и лучшие кофейни города.</p>
+            <p>Мы верим, что дизайн влияет на выручку, поэтому говорим на языке метрик, а не только картинок. Каждый проект ведёт команда, а не «ресурс с биржи».</p>
+          </div>
+          <div class="studio__images" data-reveal data-reveal-delay="150">
+            <figure class="studio__img studio__img--team">
+              <img src="assets/img/team-1.jpg" alt="Команда студии NEBULA за работой в офисе" loading="lazy" decoding="async">
+            </figure>
+            <figure class="studio__img studio__img--office">
+              <img src="assets/img/office-1.jpg" alt="Офис NEBULA на Дизайн-заводе в Москве" loading="lazy" decoding="async">
+            </figure>
+          </div>
+        </div>
+
+        <div class="stats" data-reveal>
+          <div class="stat">
+            <span class="stat__value grad-text" data-count="120" data-suffix="+">120+</span>
+            <span class="stat__label">проектов запущено</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value grad-text" data-count="9">9</span>
+            <span class="stat__label">лет на рынке</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value grad-text" data-count="14">14</span>
+            <span class="stat__label">наград Awwwards и Tagline</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value grad-text" data-count="98" data-suffix="%">98%</span>
+            <span class="stat__label">клиентов возвращаются</span>
+          </div>
+        </div>
+
+        <figure class="studio__wide" data-reveal>
+          <img src="assets/img/abs-hero.jpg" alt="Широкая абстрактная градиентная композиция — визуальный язык студии NEBULA" loading="lazy" decoding="async">
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ REVIEWS ============ -->
+    <section class="reviews section section--alt" id="reviews">
+      <div class="reviews__blob" aria-hidden="true" data-speed="0.1"><span class="blob blob--violet blob--sm"></span></div>
+      <div class="container">
+        <div class="section-head section-head--center" data-reveal>
+          <p class="kicker"><span class="kicker__dot"></span>ОТЗЫВЫ</p>
+          <h2 class="section-title">Что говорят клиенты</h2>
+        </div>
+
+        <div class="slider" id="reviews-slider" data-reveal>
+          <div class="slider__viewport" id="slider-viewport">
+            <ul class="slider__track" id="slider-track">
+              <li class="review">
+                <div class="review__stars" aria-hidden="true">★★★★★</div>
+                <blockquote class="review__quote">Команда NEBULA переосмыслила продукт, а не просто перерисовала экраны. Онбординг стал короче, конверсия выросла на 37%, а приложение держит 4,8 в сторах уже год.</blockquote>
+                <div class="review__author">
+                  <span class="review__avatar review__avatar--1" aria-hidden="true">МА</span>
+                  <span class="review__who"><strong>Марк А.</strong><span>CEO VELES</span></span>
+                </div>
+              </li>
+              <li class="review">
+                <div class="review__stars" aria-hidden="true">★★★★★</div>
+                <blockquote class="review__quote">40 экранов и ни одного сорванного дедлайна. Ребята построили дизайн-систему, в которой банк развивается без дизайнера в каждой команде. NPS вырос на 21 пункт за квартал.</blockquote>
+                <div class="review__author">
+                  <span class="review__avatar review__avatar--2" aria-hidden="true">ОТ</span>
+                  <span class="review__who"><strong>Ольга Т.</strong><span>директор NOVA</span></span>
+                </div>
+              </li>
+              <li class="review">
+                <div class="review__stars" aria-hidden="true">★★★★★</div>
+                <blockquote class="review__quote">Время покупки сократилось на 43% — лучшая метрика за пять лет сервиса. NEBULA думают бизнесом, а не только картинками, и это чувствуется в каждой детали.</blockquote>
+                <div class="review__author">
+                  <span class="review__avatar review__avatar--3" aria-hidden="true">ИВ</span>
+                  <span class="review__who"><strong>Игорь В.</strong><span>основатель AVIA.X</span></span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="slider__nav">
+            <button class="slider__arrow" id="slider-prev" type="button" aria-label="Предыдущий отзыв">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>
+            </button>
+            <div class="slider__dots" id="slider-dots" role="tablist" aria-label="Выбор отзыва"></div>
+            <button class="slider__arrow" id="slider-next" type="button" aria-label="Следующий отзыв">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA BANNER ============ -->
+    <section class="cta section" aria-label="Призыв к действию">
+      <div class="container">
+        <div class="cta__banner" data-reveal>
+          <img class="cta__bg" src="assets/img/abs-3d.jpg" alt="" loading="lazy" decoding="async" aria-hidden="true">
+          <div class="cta__content">
+            <h2>Есть идея? Расскажите нам</h2>
+            <p>Разберём задачу, предложим решение и посчитаем бюджет за 1–2 дня.</p>
+            <a href="#contacts" class="btn btn--white" data-magnetic>Обсудить проект</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACTS ============ -->
+    <section class="contacts section" id="contacts">
+      <div class="contacts__blob" aria-hidden="true" data-speed="0.12"><span class="blob blob--coral blob--sm"></span></div>
+      <div class="container contacts__grid">
+        <div class="contacts__info" data-reveal>
+          <p class="kicker"><span class="kicker__dot"></span>КОНТАКТЫ</p>
+          <h2 class="section-title">Обсудим ваш проект?</h2>
+          <p class="contacts__lead">Оставьте бриф — вернёмся с планом, сроками и сметой в течение 2 часов в рабочее время.</p>
+
+          <ul class="contacts__list">
+            <li class="contact">
+              <span class="contact__icon contact__icon--1" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" focusable="false"><rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path d="m3 7 9 6 9-6"/></svg>
+              </span>
+              <span class="contact__body"><span class="contact__label">Почта</span><a href="mailto:hello@nebula.studio">hello@nebula.studio</a></span>
+            </li>
+            <li class="contact">
+              <span class="contact__icon contact__icon--2" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.58 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </span>
+              <span class="contact__body"><span class="contact__label">Телефон</span><a href="tel:+74957712030">+7 (495) 771-20-30</a></span>
+            </li>
+            <li class="contact">
+              <span class="contact__icon contact__icon--3" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </span>
+              <span class="contact__body"><span class="contact__label">Офис</span><span>Москва, ул. Лесная, 43 — Дизайн-завод</span></span>
+            </li>
+            <li class="contact">
+              <span class="contact__icon contact__icon--4" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4 20-7z"/></svg>
+              </span>
+              <span class="contact__body"><span class="contact__label">Telegram</span><a href="https://t.me/nebula_studio" target="_blank" rel="noopener">@nebula_studio</a></span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="form-card" data-reveal data-reveal-delay="150">
+          <form class="form" id="brief-form" novalidate>
+            <div class="form__body">
+              <h3 class="form__title">Расскажите о задаче</h3>
+
+              <div class="field">
+                <label class="field__label" for="f-name">Имя</label>
+                <input class="field__input" type="text" id="f-name" name="name" placeholder="Как к вам обращаться" autocomplete="name">
+                <span class="field__error" id="err-name">Введите имя (минимум 2 символа)</span>
+              </div>
+
+              <div class="field">
+                <label class="field__label" for="f-contact">Email или телефон</label>
+                <input class="field__input" type="text" id="f-contact" name="contact" placeholder="you@company.ru или +7 (___) ___-__-__" autocomplete="email">
+                <span class="field__error" id="err-contact">Укажите корректный email или телефон</span>
+              </div>
+
+              <div class="field">
+                <label class="field__label" for="f-budget">Бюджет</label>
+                <select class="field__input field__select" id="f-budget" name="budget">
+                  <option value="" selected disabled>Выберите диапазон</option>
+                  <option value="до 200 000 ₽">до 200 000 ₽</option>
+                  <option value="200 000–500 000 ₽">200 000–500 000 ₽</option>
+                  <option value="500 000–1 000 000 ₽">500 000–1 000 000 ₽</option>
+                  <option value="от 1 млн ₽">от 1 млн ₽</option>
+                </select>
+                <span class="field__error" id="err-budget">Выберите бюджет проекта</span>
+              </div>
+
+              <div class="field">
+                <label class="field__label" for="f-task">Задача</label>
+                <textarea class="field__input field__textarea" id="f-task" name="task" rows="4" placeholder="Пара предложений о продукте и целях"></textarea>
+                <span class="field__error" id="err-task">Расскажите о задаче чуть подробнее (от 10 символов)</span>
+              </div>
+
+              <button class="btn btn--grad btn--wide" type="submit" id="form-submit" data-magnetic>Отправить бриф</button>
+              <p class="form__note">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности.</p>
+            </div>
+
+            <div class="form__success" id="form-success" role="status">
+              <span class="form__check" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M20 6 9 17l-5-5"/></svg>
+              </span>
+              <h3>Бриф получен!</h3>
+              <p>Ответим в течение 2 часов в рабочее время.</p>
+              <button class="btn btn--ghost btn--sm" type="button" id="form-reset">Отправить ещё один</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__brand grad-text" aria-hidden="true">NEBULA®</p>
+      <div class="footer__row">
+        <nav class="footer__nav" aria-label="Навигация в подвале">
+          <a href="#services">Услуги</a>
+          <a href="#cases">Кейсы</a>
+          <a href="#process">Процесс</a>
+          <a href="#studio">Студия</a>
+          <a href="#contacts">Контакты</a>
+        </nav>
+        <div class="footer__socials">
+          <a href="https://t.me/nebula_studio" target="_blank" rel="noopener" aria-label="Telegram" data-magnetic>
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4 20-7z"/></svg>
+          </a>
+          <a href="https://dribbble.com" target="_blank" rel="noopener" aria-label="Dribbble" data-magnetic>
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="10"/><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72M19.13 5.09C15.41 9.44 10.19 10.75 2.25 10.94M21.75 12.84c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"/></svg>
+          </a>
+          <a href="https://www.behance.net" target="_blank" rel="noopener" aria-label="Behance" data-magnetic>
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 7h5.5a2.75 2.75 0 0 1 0 5.5H3zM3 12.5h6a3 3 0 0 1 0 6H3zM15.5 13.5h6a3 3 0 1 0-6 0v1.5a3 3 0 0 0 5.4 1.4"/></svg>
+          </a>
+          <a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="YouTube" data-magnetic>
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-1.92 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33z"/><path d="m9.75 15.02 5.75-3.27-5.75-3.27z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2026 NEBULA® · Разработка: Kwork Premium</p>
+        <a href="#" class="footer__policy">Политика конфиденциальности</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ SHOWREEL OVERLAY ============ -->
+  <div class="reel-overlay" id="reel-overlay" role="dialog" aria-modal="true" aria-label="Showreel 2026" aria-hidden="true">
+    <button class="reel-overlay__close" id="reel-close" type="button" aria-label="Закрыть видео">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" focusable="false"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+    <video class="reel-overlay__video" id="reel-video" src="assets/video/hero.mp4" poster="assets/img/hero-poster.jpg" muted loop controls playsinline preload="metadata"></video>
+  </div>
+
+  <!-- ============ BACK TO TOP ============ -->
+  <button class="to-top" id="to-top" type="button" aria-label="Наверх">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <noscript>
+    <style>
+      .preloader, .cursor-dot, .cursor-ring, .progress { display: none !important; }
+      [data-reveal] { opacity: 1 !important; transform: none !important; }
+      body.is-loading { overflow: auto !important; }
+    </style>
+  </noscript>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
