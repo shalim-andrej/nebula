@@ -1,5 +1,12 @@
 # NEBULA® — концепт-сайт digital-агентства
 
+## Демо
+
+**[Открыть сайт →](https://shalim-andrej.github.io/nebula/)**
+
+![Главный экран — десктоп](screenshots/desktop.png)
+![Мобильная версия](screenshots/mobile.png)
+
 Премиальный одностраничник вымышленного digital-агентства NEBULA®: сайты, приложения, брендинг. Агентство само себе витрина — здесь это решено через showreel и бриф-форму, которая квалифицирует лид по бюджету.
 
 **Демо:** [shalim-andrej.github.io/nebula](https://shalim-andrej.github.io/nebula/)
